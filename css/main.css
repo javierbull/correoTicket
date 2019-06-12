@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: lightblue; */
+}
+
+.container {
+  /* background-color: teal; */
+}
+
+
+.logo img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.banner {
+  /* background-color: lightyellow; */
+}
+
+.banner img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.button {
+  display: block;
+  width: 500px;
+  margin: 1.5rem auto 3rem auto;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.button a {
+  text-decoration: none;
+  color: white;
+  /* background-color: #00b0d9; */
+  background-color: #df358d;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.button a:hover {
+  background-color: black;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+
+.text {
+  /* background-color: pink; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.text p {
+  /* background-color: pink; */
+}
+
+.text a {
+  /* background-color: lightblue; */
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 3rem;
+}
